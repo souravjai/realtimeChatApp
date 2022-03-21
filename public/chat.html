@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="./CSS/chat_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="./CSS/chat_style_phone.css">
+
+</head>
+
+<body>
+    <header>
+        Chat App using Socket.js
+    </header>
+    <div class="messageHolder">
+        <div class="messagePlaceholder">
+            <div id="roomid">Room ID:&nbsp;<span id="roomcode">1234</span></div>
+            <hr>
+            <div id="chats"> </div>
+            <div class="sendcorner">
+                <input type="text" name="message" id="message" placeholder="Type your message">
+                <input type="image" src="Icons/send.png" alt="" id="send" onclick="send_message()">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.3/qs.min.js" integrity="sha512-juaCj8zi594KHQqb92foyp87mCSriYjw3BcTHaXsAn4pEB1YWh+z+XQScMxIxzsjfM4BeVFV3Ij113lIjWiC2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script/chat_script.js"></script>
+
+</body>
+
+</html>

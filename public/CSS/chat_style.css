@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #e0e5ec; */
+    /* box-sizing: border-box; */
+}
+
+header {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    margin: 10px;
+}
+
+.messageHolder {
+    /* border: 1px solid red; */
+    display: block;
+    height: 80vh;
+    width: 70vw;
+    margin: auto;
+}
+
+hr {
+    border-top: 4px double #9711da;
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#chats {
+    height: 62vh;
+    width: 60vw;
+    margin: auto;
+    margin-top: 13px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+}
+
+.message-chat {
+    display: block;
+    /* padding: 20px 0px; */
+    /* margin: 2px; */
+}
+
+.recived {
+    margin-left: 5vw;
+    margin-right: 7vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 12px;
+}
+
+.recived>span {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    margin: 2px;
+    margin-top: 10px;
+    background-color: #c06beb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.username {
+    display: block;
+    margin-top: -29px;
+    margin-bottom: 6px;
+    margin-left: -33px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 0.1px black;
+    BACKGROUND: #eecbff;
+    PADDING: 0px;
+    border-radius: 5px;
+    padding: 4px;
+    border: 1px solid #b621fe;
+    width: max-content;
+}
+
+.sent {
+    margin-left: 7vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sent>span {
+    padding: 20px;
+    margin: 2px;
+    background-color: #eecbff;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.sendcorner {
+    display: flex;
+    width: 50vw;
+    align-items: end;
+    margin: -3px auto;
+}
+
+#roomid {
+    background: #9711da;
+    font-family: 'ubuntu', sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 10px 155px;
+    color: white;
+    border-radius: 20px;
+}
+
+#message {
+    border: 2px solid #b621fe;
+    width: 89%;
+    height: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 4px 10px;
+}
+
+#message:focus {
+    outline: none;
+    border: 2.5px solid #9711da;
+}
+
+#send {
+    height: 40px;
+    margin: 9px 0px;
+}
+
+#send:active {
+    height: 36px;
+    margin: 8px 0px;
+}
+
+.information {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    padding: 2px;
+    margin: 5px 5vw;
+    font-style: italic;
+}

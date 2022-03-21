@@ -1,0 +1,16 @@
+header {
+    font-size: 2.5rem;
+    width: 90vw;
+    margin: 5px;
+    margin-top: 25px;
+    text-align: -webkit-center;
+    line-height: 46px;
+}
+
+.content {
+    width: 96vw;
+}
+
+.footer {
+    width: 96vw;
+}

@@ -1,0 +1,45 @@
+header {
+    font-size: 2.5rem;
+    width: 90vw;
+    margin: 5px;
+    margin-top: 25px;
+    text-align: -webkit-center;
+    line-height: 46px;
+}
+
+#roomid {
+    width: 69vw;
+    margin: 10px auto;
+    -webkit-text-stroke: 0px;
+    font-size: 1.5rem;
+    margin-top: 27px;
+}
+
+hr {
+    width: 86vw;
+}
+
+.sendcorner {
+    width: 85vw;
+}
+
+#chats {
+    width: 88vw;
+}
+
+.messageHolder {
+    width: 92vw;
+}
+
+.sent>span {
+    padding: 15px;
+}
+
+.recived>span {
+    padding: 15px;
+    padding-bottom: 10px;
+}
+
+.recived {
+    margin-top: 6px;
+}
