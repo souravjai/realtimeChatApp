@@ -20,7 +20,11 @@ hr {
 }
 
 .sendcorner {
-    width: 85vw;
+    width: 90vw;
+    position: fixed;
+    bottom: 20px;
+    height: 59px;
+    margin: auto;
 }
 
 #chats {
