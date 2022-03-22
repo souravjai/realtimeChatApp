@@ -15,8 +15,8 @@ header {
 .footer {
     width: 96vw;
     bottom: 0px;
-    position: fixed;
-    height: 15vw;
+    /* position: unset; */
+    height: 25vw;
 }
 
 #createlabel>div>form,
