@@ -16,15 +16,15 @@
 
 <body>
     <header>
-        Chat App using Socket.js
+        Chat App using Socket.io
     </header>
     <div class="messageHolder">
         <div class="messagePlaceholder">
-            <div id="roomid">Room ID:&nbsp;<span id="roomcode">1234</span></div>
+            <div id="roomid">Room ID:&nbsp;<span id="roomcode">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
             <hr>
             <div id="chats"> </div>
             <div class="sendcorner">
-                <input type="text" name="message" id="message" placeholder="Type your message">
+                <input type="text" name="message" id="message" placeholder="Type your message" autocomplete="off">
                 <input type="image" src="Icons/send.png" alt="" id="send" onclick="send_message()">
             </div>
         </div>

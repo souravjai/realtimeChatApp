@@ -1,9 +1,15 @@
+/* Reseting CSS */
+
 * {
     margin: 0px;
     padding: 0px;
     /* background-color: #e0e5ec; */
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    /* border: 1px solid red; */
 }
+
+
+/* Header  */
 
 header {
     font-family: 'Baloo Bhaijaan 2', cursive;
@@ -16,6 +22,9 @@ header {
     margin: 10px;
 }
 
+
+/* Content  */
+
 .content {
     margin: 5px;
     /* border: 2px solid blue; */
@@ -25,60 +34,6 @@ header {
     align-items: center;
     justify-content: center;
     gap: 100px;
-}
-
-.btn {
-    font-size: 20px;
-    margin: 10px;
-    width: 214px;
-    height: 54px;
-    color: #fff;
-    border-radius: 16px;
-    padding: 10px 25px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
-    background: #b621fe;
-    transition: transform .2s;
-}
-
-.btn:hover {
-    background: #aa00ff;
-    text-decoration: underline;
-    transform: scale(1.1);
-}
-
-.btn:active {
-    background-color: #d37cff;
-    transform: translateY(4px);
-}
-
-.footer {
-    font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
-    /* border: 2px solid green; */
-    height: 100%;
-    width: 100%;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.links {
-    margin-top: 5px;
-}
-
-.links>a {
-    margin: 0px 20px;
-}
-
-.links>a>img:hover {
-    transition: transform 0.5s;
-    transform: scale(1.5);
 }
 
 #createlabel>div>form,
@@ -106,4 +61,64 @@ header {
 .submit:active {
     background-color: #b621fe;
     color: white;
+}
+
+
+/* Button styling */
+
+.btn {
+    font-size: 20px;
+    margin: 10px;
+    width: 214px;
+    height: 54px;
+    color: #fff;
+    border-radius: 16px;
+    padding: 10px 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+    background: #b621fe;
+    transition: transform .2s;
+}
+
+.btn:hover {
+    background: #aa00ff;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.btn:active {
+    background-color: #d37cff;
+    transform: translateY(4px);
+}
+
+
+/* Footer styling */
+
+.footer {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    margin-top: 5px;
+}
+
+.links>a {
+    margin: 0px 20px;
+}
+
+.links>a>img:hover {
+    transition: transform 0.5s;
+    transform: scale(1.5);
 }

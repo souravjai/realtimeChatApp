@@ -1,22 +1,24 @@
 header {
-    font-size: 2.5rem;
-    width: 90vw;
-    margin: 5px;
-    margin-top: 25px;
+    font-size: 40px;
+    height: 70px;
+    width: 99vw;
+    margin: 0px;
+    margin-top: 20px;
     text-align: -webkit-center;
     line-height: 46px;
 }
 
 .content {
+    margin: 0px auto;
     width: 96vw;
-    height: 68vh;
+    height: 420px;
 }
 
 .footer {
+    margin: 0px auto;
     width: 96vw;
     bottom: 0px;
-    /* position: unset; */
-    height: 25vw;
+    height: 100px;
 }
 
 #createlabel>div>form,

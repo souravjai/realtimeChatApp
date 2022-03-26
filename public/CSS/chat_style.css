@@ -1,9 +1,15 @@
+/* Reset  */
+
 * {
     margin: 0px;
     padding: 0px;
     /* background-color: #e0e5ec; */
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    /* border: 0.1px solid red; */
 }
+
+
+/* Header Corner */
 
 header {
     font-family: 'Baloo Bhaijaan 2', cursive;
@@ -15,6 +21,9 @@ header {
     font-size: 3.5rem;
     margin: 10px;
 }
+
+
+/* message Holder  */
 
 .messageHolder {
     /* border: 1px solid red; */
@@ -125,7 +134,7 @@ hr {
 #message {
     border: 2px solid #b621fe;
     width: 89%;
-    height: 25px;
+    height: 48px;
     padding: 10px;
     border-radius: 20px;
     margin: 4px 10px;

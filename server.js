@@ -4,7 +4,7 @@ const http = require("http");
 const socketio = require('socket.io');
 const { userJoin, getCurrentUser, removeElement } = require("./util/users")
 
-
+//Setting and creating server
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
@@ -17,12 +17,10 @@ app.use(express.static(path.join(__dirname, "public")));
 io.on('connection', socket => {
 
     socket.on("joining", (username, code) => {
-
         const user = userJoin(socket.id, username, code)
         socket.join(user.room);
         socket.broadcast.to(user.room).emit("roomid", `Room ID: ${user.room}`);
         socket.broadcast.to(user.room).emit("information", `${user.username} has joined`);
-
     })
 
     socket.on("incoming-message", message => {
@@ -42,6 +40,8 @@ io.on('connection', socket => {
 
 })
 
+//Port intialize
 const PORT = process.env.PORT || 3000;
 
+//port start
 server.listen(PORT, () => console.log(`server running on ${PORT}`));
