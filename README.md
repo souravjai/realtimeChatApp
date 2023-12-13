@@ -1,5 +1,5 @@
 # Real Time Chat App using socket.io
-The Site is hosted at <a href="https://sourav-chat.herokuapp.com//">Heroku</a>.
+The Site is hosted at <a href="https://realtimechatapp-i907.onrender.com">Render</a>.
 
 ***
 ## Key Features
